@@ -1,5 +1,6 @@
 # pixel-canvas-bot
-A bot that automatically places pixels in http://pixelcanvas.io
+A bot that automatically places pixels in http://pixelcanvas.io. Still under development.
+Many thanks to vitor-alves, who made most of this bot.
 
 ### Installation and usage
 

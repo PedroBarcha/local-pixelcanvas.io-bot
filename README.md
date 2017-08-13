@@ -1,6 +1,7 @@
-# pixel-canvas-bot
+# local-pixelcanvas.io-bot
 A bot that automatically places pixels in http://pixelcanvas.io. Still under development.
-Many thanks to vitor-alves, who made most of this bot.
+This is a mod of vitor-alves' bot (available at https://github.com/vitor-alves/pixel-canvas-bot),
+which is a remote bot aimed at making Unicamp's logo o/ .
 
 ### Installation and usage
 
@@ -10,13 +11,10 @@ sudo apt-get install python3
 
 **2. Download and run the bot**
 
-wget https://github.com/vitor-alves/pixel-canvas-bot/archive/master.zip
+wget https://github.com/PedroBarcha/local-pixelcanvas.io-bot.git
 
 unzip master.zip
 
 cd pixel-canvas-bot-master
 
 sudo python3 pixel-canvas-bot.py
-
-### How it works
-The bot gets specific coordinates and colors for pixels from a backend server and then sends this information to pixelcanvas.io server. Other bots I have seen need interaction from the user to manually get the fingerprint from the browser, an identification string used by pixelcanvas, but this one does this automatically by sniffing the network traffic and parsing the fingerprint from HTTP packets sent by the user to pixelcanvas.io server (this is why it needs to be run with sudo).
